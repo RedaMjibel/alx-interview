@@ -29,10 +29,9 @@ try:
     for line in sys.stdin:
         status_counts, total_file_size = process_line(line.strip(), status_counts, total_file_size)
         counter += 1
-        """if counter == 10:
+        if counter == 10:
             print_stats(status_counts, total_file_size)
             counter = 0
-"""
 finally:
     print_stats(status_counts, total_file_size)
 

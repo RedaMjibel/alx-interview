@@ -3,10 +3,11 @@
 UTF-8 Validation
 """
 
+
 def validUTF8(data):
     """determines if a given data set represents a valid UTF-8 encoding."""
     remaining_bytes = 0
-    
+
     for byte in data:
         if remaining_bytes == 0:
             if byte >> 7 == 0b0:
@@ -24,6 +25,5 @@ def validUTF8(data):
                 remaining_bytes -= 1
             else:
                 return False
-    
-    return remaining_bytes == 0
 
+    return remaining_bytes == 0

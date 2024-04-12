@@ -1,20 +1,4 @@
-
-
-
-
-
-    
-
-
-    <div id="project_id" style="display: none" data-project-id="1218"></div>
-
-
-
-      
-
-      
-
-      <div class="panel panel-default" id="project-description">
+<h1>0x05. N Queens</h1>
   <div class="panel-body">
     <p>The &ldquo;0x05. N queens&rdquo; project is a classic problem in computer science and mathematics, known for its application of the backtracking algorithm to place N non-attacking queens on an N×N chessboard. 
 To successfully complete this project, you will need to understand several key concepts and have access to resources that will help you grasp the necessary algorithms and techniques.</p>

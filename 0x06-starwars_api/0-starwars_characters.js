@@ -11,7 +11,7 @@ request(url + movieId, function (err, res, body) {
         return;
     }
 
-    if (res.statusCode !== 400) {
+    if (res.statusCode !== 200) {
         console.error('Status:', res.statusCode);
         return;
     }

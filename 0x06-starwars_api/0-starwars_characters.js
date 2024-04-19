@@ -11,7 +11,7 @@ request(url + movieId, function (err, res, body) {
         return;
     }
 
-    if (res.statusCode !== 200) {
+    if (res.statusCode !== 400) {
         console.error('Status:', res.statusCode);
         return;
     }
@@ -23,7 +23,7 @@ request(url + movieId, function (err, res, body) {
 const exactOrder = (actors, x) => {
     if (x === actors.length) return;
 
-    request(actirs[x], function (err, res, body) {
+    request(actors[x], function (err, res, body) {
         if (err) {
             console.error('Error:', err);
             return;

@@ -28,7 +28,7 @@
 
       
 
-      <div class="panel panel-default" id="project-description">
+  <div class="panel panel-default" id="project-description">
   <div class="panel-body">
     <p>For the &ldquo;0. Rotate 2D Matrix&rdquo; project, you are tasked with implementing an in-place algorithm to rotate an n x n 2D matrix by 90 degrees clockwise. This challenge requires a good understanding of matrix manipulation and in-place operations in Python. Below are the key concepts and resources that you need to grasp in order to successfully complete this project.</p>
 

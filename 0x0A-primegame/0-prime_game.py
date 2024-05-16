@@ -23,7 +23,7 @@ def isWinner(x, nums):
         if sum(a[0:i + 1]) % 2 == 0:
             ben += 1
         else:
-            maria -= 1
+            maria += 1
     if ben > maria:
         return "Ben"
     if maria > ben:
